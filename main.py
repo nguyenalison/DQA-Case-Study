@@ -1,9 +1,7 @@
 import re
 from datetime import time
-
 import pandas as pd
 import requests, json
-import seaborn as sns
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
